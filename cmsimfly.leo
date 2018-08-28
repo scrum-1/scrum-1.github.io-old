@@ -945,8 +945,13 @@ window.location= 'https://' + location.host + location.pathname + location.searc
 &lt;script type="text/javascript" src="/static/Cango-13v08-min.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="/static/CangoAxes-4v01-min.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="/static/gearUtils-05.js"&gt;&lt;/script&gt;
+&lt;!-- 使用遠端 brython
 &lt;script src="https://scrum-3.github.io/web/brython/brython.js"&gt;&lt;/script&gt;
 &lt;script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"&gt;&lt;/script&gt;
+--&gt;
+&lt;!-- 使用自帶 brython --&gt;
+&lt;script type="text/javascript" src="/static/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="/static/brython_stdlib.js"&gt;&lt;/script&gt;
 '''
 
 
@@ -2465,8 +2470,13 @@ init_mathjax();
 &lt;script type="text/javascript" src="./../static/Cango-13v08-min.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="./../static/gearUtils-05.js"&gt;&lt;/script&gt;
+&lt;!-- 使用遠端 brython
 &lt;script src="https://scrum-3.github.io/web/brython/brython.js"&gt;&lt;/script&gt;
 &lt;script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"&gt;&lt;/script&gt;
+--&gt;
+&lt;!-- 使用自帶 brython --&gt;
+&lt;script type="text/javascript" src="./../static/brython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/brython_stdlib.js"&gt;&lt;/script&gt;
 '''
 
 

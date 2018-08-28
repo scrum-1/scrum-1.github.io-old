@@ -1999,8 +1999,13 @@ def syntaxhighlight():
 <script type="text/javascript" src="/static/Cango-13v08-min.js"></script>
 <script type="text/javascript" src="/static/CangoAxes-4v01-min.js"></script>
 <script type="text/javascript" src="/static/gearUtils-05.js"></script>
+<!-- 使用遠端 brython
 <script src="https://scrum-3.github.io/web/brython/brython.js"></script>
 <script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<!-- 使用自帶 brython -->
+<script type="text/javascript" src="/static/brython.js"></script>
+<script type="text/javascript" src="/static/brython_stdlib.js"></script>
 '''
 
 
@@ -2044,8 +2049,13 @@ init_mathjax();
 <script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
 <script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
 <script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+<!-- 使用遠端 brython
 <script src="https://scrum-3.github.io/web/brython/brython.js"></script>
 <script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<!-- 使用自帶 brython -->
+<script type="text/javascript" src="./../static/brython.js"></script>
+<script type="text/javascript" src="./../static/brython_stdlib.js"></script>
 '''
 
 
