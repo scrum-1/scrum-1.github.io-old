@@ -1,12 +1,12 @@
 Title: About
 
-##2018 Fall 分組網誌
+##2018 Fall cpgx 網誌
 
-課程倉儲: <a href="https://github.com/mdecourse/2018fall">https://github.com/mdecourse/2018fall</a>
+課程倉儲: <a href="https://github.com/scrum-1/scrum-1.github.io">https://github.com/scrum-1/scrum-1.github.io</a>
 
-課程投影片: <a href="https://mdecourse.github.io/2018fall/reveal">https://mdecourse.github.io/2018fall/reveal</a>
+課程投影片: <a href="https://cpgx.kmol.info/reveal/">https://cpgx.kmol.info/reveal/</a>
 
-課程網誌: <a href="https://mdecourse.github.io/2018fall/blog">https://mdecourse.github.io/2018fall/blog</a>
+課程網誌: <a href="https://cpgx.kmol.info/blog/">https://cpgx.kmol.info/blog/</a>
 
 
 
