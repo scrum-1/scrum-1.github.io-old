@@ -66,9 +66,19 @@ $(function(){
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='建立 Github 帳號.html'>建立 Github 帳號</a><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='分組協同之前.html'>分組協同之前</a><li><a href='組員操作影片.html'>組員操作影片</a><ul><li><a href='Week1.html'>Week1</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><ul><li><a href='CMU15-112.html'>CMU15-112</a><li><a href='內建函式.html'>內建函式</a><li><a href='iterable.html'>iterable</a></li></ul><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>Week1 << <a href='Week1.html'>Previous</a> <a href='CMU15-112.html'>Next</a> >> CMU15-112<br /><h1>Python 手冊</h1>
-<p>計算機程式教材:&nbsp;&nbsp;<a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a>&nbsp;</p>
-<p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='建立 Github 帳號.html'>建立 Github 帳號</a><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='分組協同之前.html'>分組協同之前</a><li><a href='組員操作影片.html'>組員操作影片</a><ul><li><a href='Week1.html'>Week1</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><ul><li><a href='CMU15-112.html'>CMU15-112</a><li><a href='內建函式.html'>內建函式</a><li><a href='iterable.html'>iterable</a></li></ul><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>Python 手冊 << <a href='Python 手冊.html'>Previous</a> <a href='內建函式.html'>Next</a> >> 內建函式<br /><h1>CMU15-112</h1>
+<p>Getting Started:&nbsp;<a href="https://www.cs.cmu.edu/~112/notes/notes-getting-started.html">https://www.cs.cmu.edu/~112/notes/notes-getting-started.html</a></p>
+<p>Data and Expression:&nbsp;<a href="https://www.cs.cmu.edu/~112/notes/notes-data-and-exprs.html">https://www.cs.cmu.edu/~112/notes/notes-data-and-exprs.html</a>&nbsp;</p>
+<p>Functions:&nbsp;<a href="https://www.cs.cmu.edu/~112/notes/notes-writing-functions.html">https://www.cs.cmu.edu/~112/notes/notes-writing-functions.html</a>&nbsp;</p>
+<p>Conditionals:&nbsp;<a href="https://www.cs.cmu.edu/~112/notes/notes-conditionals.html">https://www.cs.cmu.edu/~112/notes/notes-conditionals.html</a>&nbsp;</p>
+<p>Loops:&nbsp;<a href="https://www.cs.cmu.edu/~112/notes/notes-loops.html">https://www.cs.cmu.edu/~112/notes/notes-loops.html</a>&nbsp;</p>
+<p>Debugging: <a href="https://www.cs.cmu.edu/~112/notes/notes-debugging.html">https://www.cs.cmu.edu/~112/notes/notes-debugging.html</a>&nbsp;</p>
+<p>Testing and Exceptions:&nbsp;<a href="https://www.cs.cmu.edu/~112/notes/notes-testing-and-exceptions.html">https://www.cs.cmu.edu/~112/notes/notes-testing-and-exceptions.html</a>&nbsp;</p>
+<p>Strings:&nbsp;<a href="https://www.cs.cmu.edu/~112/notes/notes-strings.html">https://www.cs.cmu.edu/~112/notes/notes-strings.html</a>&nbsp;</p>
+<p>Algorithmic Thinking:&nbsp;<a href="https://www.cs.cmu.edu/~112/notes/notes-algorithmic-thinking.html">https://www.cs.cmu.edu/~112/notes/notes-algorithmic-thinking.html</a>&nbsp;</p>
+<p>Style:&nbsp;<a href="https://www.cs.cmu.edu/~112/notes/notes-style.html">https://www.cs.cmu.edu/~112/notes/notes-style.html</a>&nbsp;</p>
+<p>1D Lists and Tuples:&nbsp;<a href="https://www.cs.cmu.edu/~112/notes/notes-1d-lists.html">https://www.cs.cmu.edu/~112/notes/notes-1d-lists.html</a>&nbsp;</p>
+<p>2D Lists:&nbsp;<a href="https://www.cs.cmu.edu/~112/notes/notes-2d-lists.html">https://www.cs.cmu.edu/~112/notes/notes-2d-lists.html</a>&nbsp;</p>
 <h4>線上 Python 程式執行</h4>
 <!-- 啟動 Brython 時, 設定 pythonpath 為 /static/, 並將共用 .py 放入, 可以在隨後的程式中導入使用 -->
 <p>
@@ -228,163 +238,4 @@ doc["mathEx"].bind('click', inputEx.prog)
 </script>
 </p>
 <!-- ***************************** math end -->
-<p><button id="keyword">keyword</button><button id="for1">for1</button><button id="hello">hello</button><button id="inputEx">input</button><button id="mathEx">math</button></p>
-<p>上述 html 中的 Brython 對應程式碼:</p>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">&lt;script&gt;
-window.onload=function(){
-brython({debug:1, pythonpath:['/static/']});
-}
-&lt;/script&gt;
-&lt;/p&gt;
-&lt;!-- 導入 FileSaver 與 filereader --&gt;
-&lt;p&gt;
-&lt;script type="text/javascript" src="/static/ace/FileSaver.min.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/static/ace/filereader.js"&gt;&lt;/script&gt;
-&lt;/p&gt;
-&lt;!-- 導入 ace --&gt;
-&lt;p&gt;
-&lt;script type="text/javascript" src="/static/ace/ace.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/static/ace/ext-language_tools.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/static/ace/mode-python3.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="/static/ace/snippets/python.js"&gt;&lt;/script&gt;
-&lt;/p&gt;
-&lt;!-- 請注意, 這裡使用 Javascript 將 localStorage["py_src"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--&gt;
-&lt;p&gt;
-&lt;script type="text/javascript"&gt;
-function doSave(storage_id, filename){
-    var blob = new Blob([localStorage[storage_id]], {type: "text/plain;charset=utf-8"});
-    filename = document.getElementById(filename).value
-    saveAs(blob, filename+".py");
-}
-&lt;/script&gt;
-&lt;/p&gt;
-&lt;p&gt;使用者可以利用以下編輯區執行 Brython 程式:&lt;/p&gt;
-&lt;!-- 印出版次與關鍵字程式 --&gt;
-&lt;p&gt;
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-import ace
-
-# Brython 3.3.4 內建的 container 名稱為  'container' 且 turtle 輸出為 svg 必須使用 div 訂定 id
-Ace = ace.Editor(editor_id="kw_editor", console_id="kw_console", container_id="kw__container", storage_id="kw_py_src" )
-
-Ace.editor.setValue('''# 導入 sys 模組
-import sys
-# 導入 keyword 模組
-import keyword
-
-# 利用 sys 模組中的 version_info 印出 Python 版次
-print("Python version: ", sys.version_info)
-# 利用 keyword 模組中的 kwlist 印出關鍵字
-print("Python keywords: ", keyword.kwlist)
-''')
-Ace.editor.scrollToRow(0)
-Ace.editor.gotoLine(0)
-
-# 執行程式, 顯示輸出結果與清除輸出結果及對應按鈕綁定
-doc['kw_run'].bind('click', Ace.run)
-doc['kw_show_console'].bind('click', Ace.show_console)
-doc['kw_clear_console'].bind('click', Ace.clear_console)
-&lt;/script&gt;
-&lt;/p&gt;
-&lt;!-- 用來顯示程式碼的 editor 區域 --&gt;
-&lt;div id="kw_editor" style="width: 600px; height: 300px;"&gt;&lt;/div&gt;
-&lt;!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --&gt;&lt;form&gt;&lt;label&gt;Filename: &lt;input type="text" id="kw_filename" placeholder="input file name"&gt;.py&lt;/label&gt; &lt;input type="submit" value="Save" onclick="doSave('kw_py_src', 'kw_filename');"&gt;&lt;/form&gt;
-&lt;p&gt;&lt;button id="kw_run"&gt;Run&lt;/button&gt; &lt;button id="kw_show_console"&gt;Output&lt;/button&gt; &lt;button id="kw_clear_console"&gt;清除&lt;/button&gt;&lt;/p&gt;
-&lt;div style="width: 100%; height: 100%;"&gt;&lt;textarea id="kw_console" autocomplete="off"&gt;&lt;/textarea&gt;&lt;/div&gt;
-&lt;p&gt;&lt;!-- ****************************** keyword start --&gt;
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-import ace
-
-def keyword(ev):
-    Ace = ace.Editor(editor_id="kw_editor", console_id="kw_console", container_id="kw__container", storage_id="kw_py_src" )
-
-    Ace.editor.setValue('''# 導入 sys 模組
-import sys
-# 導入 keyword 模組
-import keyword
-
-# 利用 sys 模組中的 version_info 印出 Python 版次
-print("Python version: ", sys.version_info)
-# 利用 keyword 模組中的 kwlist 印出關鍵字
-print("Python keywords: ", keyword.kwlist)
-''')
-    Ace.editor.scrollToRow(0)
-    Ace.editor.gotoLine(0)
-doc['keyword'].bind('click',keyword)
-&lt;/script&gt;
-&lt;/p&gt;
-&lt;!-- ****************************** keyword end --&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;!-- ****************************** for1 start --&gt;
-&lt;p&gt;
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-import ace
-
-def for1(ev):
-    Ace = ace.Editor(editor_id="kw_editor", console_id="kw_console", container_id="kw__container", storage_id="kw_py_src" )
-
-    Ace.editor.setValue('''#for1 簡單的 for 迴圈範例
-for i in range(10):
-    print(i)
-''')
-    Ace.editor.scrollToRow(0)
-    Ace.editor.gotoLine(0)
-doc['for1'].bind('click',for1)
-&lt;/script&gt;
-&lt;!-- ****************************** for1 end --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- ***************************** hello start --&gt;
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-# 導入位於 static 目錄下的 beditor.py 
-import beditor
-# 利用 beditor.py 中的 editor 類別建立案例, 對應到 hello
-hello = beditor.editor("""# 定義 helloWorld 函式, 然後呼叫執行
-def helloWorld():
-    print("Hello World!")
-    # 同行列印
-    print("first string ", end="")
-    print("second string")
-
-helloWorld()
-""")
-# id 為 "hello" 的按鈕點按時, 執行 hello 物件中的 prog 方法
-doc["hello"].bind('click', hello.prog)
-&lt;/script&gt;
-&lt;!-- ***************************** hello end --&gt;&lt;/p&gt;
-&lt;!-- ***************************** input start --&gt;
-&lt;p&gt;
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-# 導入位於 static 目錄下的 beditor.py 
-import beditor
-# 利用 beditor.py 中的 editor 類別建立案例, 對應到 inputEx
-inputEx = beditor.editor("""# 利用 input() 取使用者輸入
-name = input("Enter your name: ")
-print("Your name is:", name)
-#x = int(input("Enter a number: "))
-#print("One half of", x, "=", x/2)
-""")
-# id 為 "inputEx" 的按鈕點按時, 執行 inputEx 物件中的 prog 方法
-doc["inputEx"].bind('click', inputEx.prog)
-&lt;/script&gt;
-&lt;/p&gt;
-&lt;!-- ***************************** input end --&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;!-- ***************************** math start --&gt;
-&lt;p&gt;
-&lt;script type="text/python3"&gt;
-from browser import document as doc
-import beditor
-inputEx = beditor.editor("""# 導入 math 模組後, 使用模組方法
-import math
-print(math.factorial(20))
-""")
-doc["mathEx"].bind('click', inputEx.prog)
-&lt;/script&gt;
-&lt;/p&gt;
-&lt;!-- ***************************** math end --&gt;
-&lt;p&gt;&lt;button id="keyword"&gt;keyword&lt;/button&gt;&lt;button id="for1"&gt;for1&lt;/button&gt;&lt;button id="hello"&gt;hello&lt;/button&gt;&lt;button id="inputEx"&gt;input&lt;/button&gt;&lt;button id="mathEx"&gt;math&lt;/button&gt;&lt;/p&gt;</pre>
-<p></p><br />Week1 << <a href='Week1.html'>Previous</a> <a href='CMU15-112.html'>Next</a> >> CMU15-112</section></div></body></html>
+<p><button id="keyword">keyword</button><button id="for1">for1</button><button id="hello">hello</button><button id="inputEx">input</button><button id="mathEx">math</button></p><br />Python 手冊 << <a href='Python 手冊.html'>Previous</a> <a href='內建函式.html'>Next</a> >> 內建函式</section></div></body></html>
